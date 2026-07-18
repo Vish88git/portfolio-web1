@@ -47,3 +47,41 @@ section {
   padding: 20px;
   margin-bottom: 20px;
 }
+
+nav {
+  display: flex;
+  gap: 24px;
+  background-color: #8b2500;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.skills {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #d4c5a9;
+  color: #333333;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
